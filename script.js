@@ -7,10 +7,10 @@ const projects = [
     // PROJECT 1: A Sample MakeCode Arcade Game
     // ----------------------------------------------------
     {
-        title: "Space bhghbhhhhg Clone",
+        title: "Calculator",
         description: "My first game! I learned about player movement and projectile creation. It was challenging to get the enemy sprites to move smoothly.",
         imagePath: "images/space_invaders_screenshot.png", // NOTE: This image file must be in an 'images' folder!
-        link: "guessing_game.html"
+        link: "Calculator.html"
     },
 
     // ----------------------------------------------------
@@ -82,5 +82,6 @@ projects.forEach(project => {
     // Append the full card to the main container
     projectsContainer.appendChild(card);
 });
+
 
 
