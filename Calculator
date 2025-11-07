@@ -1,0 +1,11 @@
+action = input("Do you want to divide,,add,subtract or times")
+num2 = int(input("what is ur second num"))
+
+if action == "add":
+    print(num1+num2)
+elif action == "subtract":
+    print(num1-num2)
+elif action == "times":
+    print(num1*num2)
+elif action == "divide":
+    print(num1/num2)
